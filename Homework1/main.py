@@ -55,7 +55,7 @@ while program_running:
 
     # Option 4: Exit the program
     elif user_choice == "4":
-        print("Exiting program. Goodbye! :)")
+        print("Exiting program. Goodbye for now! :)")
         program_running = False
 
     # Handle invalid menu selections
