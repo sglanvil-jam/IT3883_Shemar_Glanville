@@ -12,10 +12,10 @@
 # - Course notes and content
 # - Assignment instructions
 
-# Variable used to hold all text entered by the user
+# Variable used to hold text user enters
 saved_text = ""
 
-# Controls the loop so the menu continues to display
+# Controls the loop so the menu displays continuously
 program_running = True
 
 while program_running:
@@ -55,9 +55,9 @@ while program_running:
 
     # Option 4: Exit the program
     elif user_choice == "4":
-        print("Exiting program. Goodbye!")
+        print("Exiting program. Goodbye! :)")
         program_running = False
 
     # Handle invalid menu selections
     else:
-        print("Invalid choice. Please select a number from 1 to 4.")
+        print("Invalid entry. Please select a number from 1 to 4.")
