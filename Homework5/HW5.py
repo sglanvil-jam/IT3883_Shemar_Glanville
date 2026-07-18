@@ -1,11 +1,11 @@
 # Course: IT3883/Section W01
 # Student Name: Shemar Glanville
-# Assignment Number: Assignment 4
-# Due Date: 07/12/2026
+# Assignment Number: Assignment 5
+# Due Date: 07/17/2026
 # Purpose:
-# This program waits for a message from another program.
-# It converts the received text to uppercase and sends it back.
-# Resources Used: Python sqlite3 documentation and class notes.
+# This program creates a SQLite database, stores temperature
+# readings from an input file into a database table, and then
+# calculates the average temperature for Sunday and Thursday.
 
 import sqlite3
 
